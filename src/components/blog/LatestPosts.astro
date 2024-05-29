@@ -12,7 +12,11 @@ const posts = (await getCollection('blog', ({ data }) => {
   ).slice(0, postLimit);
 ---
 <section class="container mx-auto max-w-screen-lg px-7 py-10 mb-10">
-    {
+  <div class="mx-auto">
+    <p class="text-center text-white pb-8 text-2xl">Terbaru dari <span class="gradient-underline text-teal-500">Keroncong Biru</span></p>
+  </div> 
+  
+   {
         posts.map((post, index) => {
           return <Post postData={post} num={index} />;
         })

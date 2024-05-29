@@ -1,16 +1,16 @@
 ---
 import { Image } from 'astro:assets'
 
-import logoImage from '../../assets/logo.jpg';
+import fotobersama from '../../assets/fotobersama.jpg';
 
 import slide1 from '../../assets/slide-1.jpg';
-import slide2 from '../../assets/slide-2.jpg';
-import slide3 from '../../assets/slide-3.jpg';
+import slide2 from '../../assets/slide-2.png';
+import slide3 from '../../assets/slide-3.png';
 import slide4 from '../../assets/slide-4.jpg';
-import slide5 from '../../assets/slide-5.jpg';
+import slide5 from '../../assets/slide-5.png';
 ---
 <section class="
-        container mx-auto max-w-screen-xl px-7 py-10
+        container mx-auto max-w-screen-xl px-7 py-5
         lg:min-h-[500px] content-center font-pacamara
         prose lg:prose-xl
         prose-headings:font-pacamara-space prose-headings:mt-5 prose-headings:text-pacamara-dark prose-headings:font-bold lg:prose-h1:text-7xl prose-h1:mt-0 prose-heading:transition-all prose-heading:duration-300  
@@ -19,14 +19,13 @@ import slide5 from '../../assets/slide-5.jpg';
         dark:prose-headings:text-white
     ">
     <div class="w-full">
-        <Image src={logoImage} alt="" loading="eager" decoding="sync" class="relative w-full rounded-[15px] image-shine"  />
+        <Image src={fotobersama} alt="" loading="eager" decoding="sync" class="relative w-full rounded-[15px] image-shine"  />
     </div>
 
-    <p>
-        Aromatic brew, pure indulgence, exquisite satisfaction.
+    <p class="text-center">
+        <span class="gradient-underline text-teal-500">Keroncong Biru</span>, Band keroncong untuk berbagai event seperti wedding dan gathering
     </p>
-    <h1><span class="gradient-underline"><span>Awaken your senses to the tantalizing allure of specialty coffee bliss.</span></span></h1>
-</section>
+    </section>
 
 <section class="my-10 flex justify-center gap-5 overflow-hidden py-4 sm:gap-10">
     <div class="relative w-44 flex-none overflow-hidden bg-white dark:bg-pacamara-dark sm:w-3/12 rotate-2 rounded-[15px]">

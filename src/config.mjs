@@ -1,20 +1,21 @@
 export default {
-    title: "Homepage",
-    titleSuffix: " | Pacamara ☕",
-    description: "Aromatic brew, pure indulgence, exquisite satisfaction.Default description",
-    defaultOgImage: "./defaultog.jpg",
+    title: "Keroncong Biru",
+    titleSuffix: " | Wedding and gathering Band☕",
+    description: "Band keroncong modern untuk berbagai event seperti wedding dan gathering",
+    defaultOgImage: "./fotobersama.jpg",
     latestPosts: 3,
     postsPerPage: 3,
-    url: "https://pacamara-astro-6y7xr.kinsta.page",
+    url: "https://keroncongbiru.vercel.app",
     social: {
         'dribbble': false,
         'facebook': false,
-        'github': 'https://github.com/palmiak',
-        'instagram': false,
-        'mastodon': false,
+        'github': false,
+        'instagram': 'https://www.instagram.com/keroncongbiru/',
+        'mastodon': 'https://www.youtube.com/@KeroncongBiru',
         'pinterest': false,
         'skype': false,
-        'twitter': 'https://twitter.com/palmiak_fp'
+        'twitter': false,
+        'youtube': 'https://www.youtube.com/@KeroncongBiru'
 
     }
 }
