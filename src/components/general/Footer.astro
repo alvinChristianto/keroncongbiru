@@ -1,4 +1,8 @@
 ---
+import { Image } from "astro:assets";
+
+import logo from "../../assets/logo.jpg";
+
 import config from "../../config.mjs";
 import SocialIcon from "./SocialIcon.astro";
 ---
@@ -10,12 +14,22 @@ import SocialIcon from "./SocialIcon.astro";
   <footer
     class="container mx-auto max-w-screen-xl flex flex-initial lg:flex-row flex-col gap-10 items-center px-7"
   >
-    <div class="logo flex-none">
+    <div class="logo flex items-center">
+      <div class="">
+        <Image
+          src={logo}
+          alt=""
+          loading="eager"
+          decoding="sync"
+          class="relative w-14 md:w-20 lg:w-16 rounded-[15px] image-shine"
+        />
+      </div>
       <a
         href="/"
-        class="font-bold font-pacamara-space text-lg hover:text-pacamara-accent transition-all duration-300 dark:text-white dark:hover:text-pacamara-accent"
+        class="font-bold font-pacamara-space pl-2 text-lg hover:text-pacamara-accent transition-all duration-300 dark:text-white dark:hover:text-pacamara-accent"
         >Keroncong Biru</a
       >
+
     </div>
 
     <ul

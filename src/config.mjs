@@ -1,6 +1,6 @@
 export default {
     title: "Keroncong Biru",
-    titleSuffix: " | Wedding and gathering Band☕",
+    titleSuffix: " | Wedding and Gathering Band☕",
     description: "Band keroncong modern untuk berbagai event seperti wedding dan gathering",
     defaultOgImage: "https://keroncongbiru.vercel.app/_astro/fotobersama.62a72d29_OiaYf.webp",
     latestPosts: 3,
@@ -15,7 +15,7 @@ export default {
         'pinterest': false,
         'skype': false,
         'twitter': false,
-        'youtube': 'https://www.youtube.com/@KeroncongBiru'
+        'youtube': 'https://www.tiktok.com/@keroncong_biru'
 
     }
 }
