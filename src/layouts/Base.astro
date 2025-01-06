@@ -3,6 +3,7 @@ import { ViewTransitions } from "astro:transitions";
 import SeoHead from "../components/general/SeoHead.astro";
 import Header from "../components/general/Header.astro";
 import Footer from "../components/general/Footer.astro";
+import fotobersama from "../../assets/fotobersama.jpg";
 import "../css/style.css";
 
 const { postData } = Astro.props;
@@ -53,6 +54,7 @@ const { postData } = Astro.props;
       title="RSS Feed"
       href="./rss.xml"
     />
+    <link rel="icon" href="https://keroncongbiru.vercel.app/_astro/logo.d3630764_ZFViWN.webp" type="image/x-icon" sizes="30x32">
     <SeoHead postData={postData} />
     <link
       rel="preload"
