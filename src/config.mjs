@@ -1,7 +1,7 @@
 export default {
     title: "Keroncong Biru",
     titleSuffix: " | Wedding and Gathering Band☕",
-    description: "Band keroncong untuk wedding dan gathering Jogja dan sekitarnya",
+    description: "Band keroncong untuk mengisi wedding atau pernikahan, gathering event dan reguler band di Jogja dan sekitarnya. Membawakan lagu modern dengan nuansa keroncong.",
     defaultOgImage: "https://keroncongbiru.vercel.app/_astro/fotobersama.62a72d29_OiaYf.webp",
     latestPosts: 5,
     postsPerPage: 5,
