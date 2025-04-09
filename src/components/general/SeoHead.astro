@@ -25,6 +25,7 @@ const type = postData?.data?.type ? postData.data.type : "website";
 {description && <meta property="og:description" content={description} />}
 {image && <meta property="og:image" content={new URL(image, Astro.url)} />}
 
+
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:title" content={title} />
